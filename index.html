@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Vestido Lacroix — amostra</title>
+<style>
+  :root { --tinta:#14161a; --papel:#faf9f7; --suave:#6b7280; --linha:#e5e3df; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--papel); color:var(--tinta);
+         font:16px/1.6 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  .caixa { max-width:1080px; margin:0 auto; padding:56px 20px 80px; }
+  h1 { font-size:30px; line-height:1.2; margin:0 0 10px; letter-spacing:-.02em; }
+  .sub { color:var(--suave); margin:0 0 30px; font-size:17px; }
+  .aviso { border-left:3px solid var(--tinta); padding:12px 16px; background:#fff;
+           font-size:14.5px; color:#3d424b; margin:0 0 40px; }
+  h2 { font-size:13px; letter-spacing:.14em; text-transform:uppercase; color:var(--suave);
+       margin:44px 0 16px; font-weight:600; }
+  .grelha { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; }
+  figure { margin:0; }
+  figure img { width:100%; display:block; border-radius:10px; border:1px solid var(--linha); background:#fff; }
+  figcaption { font-size:13px; color:var(--suave); margin-top:8px; }
+  .marca { color:var(--tinta); font-weight:600; }
+  video { width:100%; max-width:340px; border-radius:12px; display:block; border:1px solid var(--linha); }
+  .duas { display:flex; gap:32px; align-items:flex-start; flex-wrap:wrap; }
+  .duas p { flex:1; min-width:260px; margin-top:0; }
+  .pe { margin-top:56px; padding-top:22px; border-top:1px solid var(--linha);
+        color:var(--suave); font-size:14.5px; }
+  .pe a { color:var(--tinta); }
+  @media (max-width:760px){ .grelha{ grid-template-columns:repeat(2,1fr);} h1{font-size:25px;} }
+</style>
+<div class="caixa">
+  <h1>A mesma peça, outra modelo — sem nova sessão</h1>
+  <p class="sub">Vestido Lacroix. Partindo apenas das fotografias que já estão no site da Desigual.</p>
+
+  <div class="aviso">
+    Amostra feita para a Desigual, a partir das fotografias do vosso próprio site. As modelos
+    são geradas por computador e as imagens são simulações visuais — não representam o caimento
+    real da peça. Nada disto está publicado em lado nenhum.
+  </div>
+
+  <h2>Fotografia original · três ângulos gerados</h2>
+  <div class="grelha">
+    <figure><img src="original.jpg" alt="Fotografia original do vestido no site da Desigual">
+      <figcaption><span class="marca">Original</span> · fotografia do site</figcaption></figure>
+    <figure><img src="frente.jpg" alt="A mesma peça noutra modelo, de frente">
+      <figcaption>Gerado · frente</figcaption></figure>
+    <figure><img src="tresquartos.jpg" alt="A mesma peça noutra modelo, três quartos">
+      <figcaption>Gerado · três quartos</figcaption></figure>
+    <figure><img src="costas.jpg" alt="A mesma peça noutra modelo, de costas">
+      <figcaption>Gerado · costas</figcaption></figure>
+  </div>
+
+  <h2>Vídeo vertical, pronto para redes</h2>
+  <div class="duas">
+    <video src="video.mp4" controls playsinline preload="metadata" poster="frente.jpg"></video>
+    <p>
+      Dezassete segundos, formato vertical, feito a partir das mesmas imagens.
+      O mesmo processo serve para qualquer peça do catálogo: chega a fotografia de produto
+      que já existe, sem casting, sem estúdio e sem direitos de imagem a tratar.
+    </p>
+  </div>
+
+  <p class="pe">
+    Pedro Capela · <a href="mailto:pedro@gigacorp.pt">pedro@gigacorp.pt</a> · 936 882 364<br>
+    Página privada, feita só para esta conversa.
+  </p>
+</div>
+</html>
